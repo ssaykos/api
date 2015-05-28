@@ -1,5 +1,6 @@
 package api.util.arrays;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -45,13 +46,18 @@ public class SortDemo {
 	public static void main(String[] args) {
 		SortDemo util = new SortDemo();
 		SortDemo util2 = new SortDemo();
+		SortDemo util3 = new SortDemo();
 		List<Integer> list1 = new ArrayList<Integer>();
 		List<Integer> list2 = new ArrayList<Integer>();
+		List<Integer> list3 = new ArrayList<Integer>();
 		int[] arr = {0,5,9,4,1,0};
 		list1= util.getAscSort1(arr);
 		list2=util2.getAscSort2(arr);
+		list3=util3.getAscSort1(arr);
 		System.out.println("스왑알고리즘 사용한 오름차순 정렬: "+list1.toString());
 		System.out.println("Arrays.sort() 사용으로 오름차순 정렬 : "+list2.toString());
+		Collections.reverse(list3);
+		System.out.println(list3.toString());
 		
 	}
 }
