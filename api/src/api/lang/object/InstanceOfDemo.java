@@ -17,7 +17,8 @@ public class InstanceOfDemo {
 		
 		if( c instanceof FireCar){// 인스턴스보다 이퀄스를  더 많이 쓴다.
 			/*
-		 		소방차 Car 타입인지 확인 후 .. 맞다면 (FireCar)로 객체 캐스팅을 하는것
+		 		소방차 Car 타입인지 확인 후 .. 맞다면 (FireCar)로 객체 캐스팅을 하는것//애매하면 아랫거 ㄱㄱ
+		 		c가 소방차타입인지 엠뷸런스타입인지 확인후 맞는 속성으로 캐스팅
 			 */
 			FireCar f = (FireCar)c;
 			f.driver();
