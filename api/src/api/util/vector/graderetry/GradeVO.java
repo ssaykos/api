@@ -1,4 +1,4 @@
-package api.util.vector;
+package api.util.vector.graderetry;
 
 public class GradeVO {
 	//변수 선언시 동일한 타입일경우 하나의 타입당 여러개의 동시 선언

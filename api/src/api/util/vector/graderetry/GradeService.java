@@ -1,4 +1,4 @@
-package api.util.vector;
+package api.util.vector.graderetry;
 
 import java.util.Vector;
 
